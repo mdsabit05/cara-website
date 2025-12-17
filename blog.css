@@ -1,0 +1,113 @@
+/* ...page1 image ... */
+#headercontent {
+  height: 40vh;
+  width: 100%;
+  background-image: url(Image/b19.webp);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#headercontent h1 {
+  font-size: 4rem;
+}
+#headercontent p {
+ font-size: 1.2rem;
+ font-weight: 400;
+ letter-spacing: 1px;
+ margin-top: 20px;
+}
+
+/* ...blog... */
+#blog {
+  margin-top: 120px;
+ 
+}
+#blogcontent {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+#leftbox  {
+  width: 35%;
+  height: 46vh;
+  position: relative;
+}
+#leftbox img {
+  width: 100%;
+  height: 48vh;
+  object-fit: cover;
+}
+#rightbox {
+  width: 35%;
+  height: 46vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  object-fit: cover;
+}
+#rightbox h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+#rightbox p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #465b52;
+  line-height: 20px;
+   letter-spacing: 0.5px;
+}
+#rightbox h2 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+#date {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #c9cbce;
+  z-index: -9;
+  position: absolute;
+  top: -45px;
+  left: 0;
+}
+
+
+@media screen and (max-width: 620px) {
+  #blogcontent {
+    display: flex;
+    flex-direction: column;
+  }
+  #leftbox img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+#leftbox {
+    width: 80%;
+    height: 20vh;
+}
+#date {
+  top: -48px;
+}
+#rightbox {
+    width: 78%;
+}
+#blogcontent {
+    margin-bottom: 23px;
+}
+}
+
+@media screen and (max-width: 480px) {
+  #headercontent {
+      height: 20vh;
+  }
+
+}

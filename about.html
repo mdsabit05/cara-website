@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
+  <title>Cara</title>
+</head>
+<body>
+    <nav>
+    <div id="navlogo">
+    </div>
+    <div id="navlink">
+      <ul>
+        <li>
+          <a href="index.html" >Home</a>
+        </li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li> <a href="contact.html">Contact</a></li>
+        <li><i class="fa-solid fa-cart-shopping"></i></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="toggle-btn" onclick="toggleSidebar()">&#9776;</div>
+  <div class="sidebar" id="sidebar">
+    <a href="index.html" class="active">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="blog.html">blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <main>
+     <!-- ...page1 image ... -->
+  <div id="headercontent">
+    <h1>#KnowUs</h1>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+  </div>
+
+  <!-- ...know us... -->
+   <section id="pagecontainer">
+    <div id="leftbox"></div>
+    <div id="rightbox">
+      <h1>Who We Are?</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi similique in impedit recusandae, perferendis earum laudantium, tempora omnis repellendus explicabo asperiores maxime consequuntur quibusdam nihil veniam voluptates atque id repellat eum nam temporibus unde. Veniam amet quisquam consectetur harum, rem ipsam totam voluptatum minus tenetur nulla ipsum tempora?</p>      
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, consequatur facilis impedit repellendus</h3>
+    </div>
+   </section>
+
+   <!-- ...video... -->
+    <section id="videopage">
+      <h1>Download Our <span>App</span></h1>
+      <div id="video">
+        <video  loop muted autoplay src="Image/1.mp4"></video>
+      </div>
+    </section>
+
+      <section id="page1">
+      <div id="page1bottom">
+        <div id="pBoxcontainer">
+          <div class="p1box">
+            <img src="Image/f1.webp" alt="">
+            <a href="">Free Shipping</a>
+          </div>
+          <div class="p1box">
+            <img src="Image/f2.webp" alt="">
+            <a href="">Online Order</a>
+          </div>
+          <div class="p1box">
+            <img src="Image/f3.webp" alt="">
+            <a href="">Save Money</a>
+          </div>
+          <div class="p1box">
+            <img src="Image/f4.webp" alt="">
+            <a href="">Promotions</a>
+          </div>
+          <div class="p1box">
+            <img src="Image/f5.webp" alt="">
+            <a href="">Happy Sell</a>
+          </div>
+          <div class="p1box">
+            <img src="Image/f6.webp" alt="">
+            <a href="">24/7 Support</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ...signup section... -->
+    <section id="signup">
+      <div id="signuptext">
+        <h1>Sign Up For Newsletters</h1>
+        <p>Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+      <div id="email">
+        <input type="text" name="m=email" id="" placeholder="Your email address"><button>Sign Up</button>
+      </div>
+    </section>
+
+    <!-- ...Footer... -->
+    <footer>
+      <div id="row1">
+        <div id="navlogo"></div>
+        <h2>Contact</h2>
+        <ul>
+          <li> <strong>Address:</strong> 19 Beitz Street,Brisbane,Queensland</li>
+          <li><strong> Phone:</strong> +61 123456789</li>
+          <li> <strong>Hours:</strong> 9am-5pm, Mon-Sat</li>
+          <li style="color: black;"><strong>Follow Us</strong></li>
+        </ul>
+        <div id="icon">
+          <ul>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-pinterest"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div id="row2">
+        <p>About</p>
+        <ul>
+          <li>About Us</li>
+          <li>Delivery Information</li>
+          <li>Privacy Policy</li>
+          <li>Term & Condition</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div id="row3">
+        <p>My Account</p>
+        <ul>
+          <li>About Us</li>
+          <li>Delivery Information</li>
+          <li>Privacy Policy</li>
+          <li>Term & Condition</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div id="row4">
+        <h2>Install App</h2>
+        <p>From App store or google play</p>
+        <div class="footerimg">
+          <img src="Image/app.webp" alt="">
+          <img src="Image/play.webp" alt="">
+        </div>
+        <p>Secured payment Gateway</p>
+        <div id="footericon">
+          <img src="Image/pay.webp" alt="">
+        </div>
+      </div>
+    </footer>
+    <div id="copyright">
+      <p>© Copyright 2023 Jianhong Kang Web Project</p>
+    </div>
+  </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

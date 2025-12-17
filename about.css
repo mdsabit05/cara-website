@@ -1,0 +1,126 @@
+/* ...page1 image ... */
+#headercontent {
+  height: 40vh;
+  width: 100%;
+  background-image: url(Image/banner.webp);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+#headercontent h1 {
+  font-size: 4rem;
+}
+#headercontent p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+/* ...know us... */
+#pagecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 120px;
+}
+#leftbox {
+  height: 60vh;
+  width: 45%;
+  background-image: url(Image/a6.webp);
+  background-size: cover;
+  background-position: center;
+}
+#rightbox {
+  height: 60vh;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#rightbox h1 {
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+#rightbox p , h3 {
+  color: #465b52;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 15px 0px;
+}
+
+/* ...video... */
+#videopage h1 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#videopage span {
+  font-size: 3.8rem;
+  font-weight: 600;
+  color: rgb(60, 1, 60);
+  text-decoration: underline;
+}
+#video {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+#video video {
+  height: 85vh;
+  width: 70%;
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 620px) {
+  #pagecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 120px;
+}
+#leftbox {
+    height: 30vh;
+    width: 78%;
+}
+#rightbox {
+    height: 46vh;
+    width: 77%;
+}
+#videopage h1 {
+    font-size: 2.5rem;
+}
+#video video {
+    height: 40vh;
+    width: 86%;
+}
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+#headercontent {
+    height: 20vh;
+    margin-bottom: 40px;
+}
+#rightbox {
+        height: 52vh;
+        width: 77%;
+    }
+    #rightbox h1 {
+    font-size: 2.8rem;
+    }
+}

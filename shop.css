@@ -1,0 +1,33 @@
+/* ...page1 image ... */
+#headercontent {
+  height: 40vh;
+  width: 100%;
+  background-image: url(Image/b1.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#headercontent h1 {
+  font-size: 4rem
+}
+#headercontent p {
+ font-size: 1.2rem;
+ font-weight: 400;
+ letter-spacing: 1px;
+ margin-top: 20px;
+}
+
+@media screen and (max-width:620px) {
+  #headercontent {
+    height: 30vh;
+  }
+
+}
+@media screen and (max-width:480px) {
+  #headercontent {
+    height: 20vh;
+  }
+}
