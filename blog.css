@@ -107,7 +107,10 @@
 
 @media screen and (max-width: 480px) {
   #headercontent {
-      height: 20vh;
+      height: 17vh;
   }
+  #headercontent h1 {
+    font-size: 3rem;
+}
 
 }

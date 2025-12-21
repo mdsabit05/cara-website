@@ -79,15 +79,15 @@ li a:hover::after {
   right: -250px;
   width: 35%;
   height: 100%;
-  background: #d9d9d9;
+  background: #d9d9d9e3;
  padding-top: 88px;
   transition: all 0.4s ease-in-out;
   z-index: 999;
-  opacity: 0;
+  display: none;
 }
 .sidebar.active {
   right: 0;
-  opacity: 1;
+  display: block;
 }
 .sidebar a {
   display: block;
@@ -278,7 +278,6 @@ li a:hover::after {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  cursor: pointer;
 }
 #p2box {
   padding: 0.8rem;
@@ -288,6 +287,7 @@ li a:hover::after {
   border: 1px solid #cce7d0;
   border-radius: 25px;
   position: relative;
+  cursor: pointer;
 }
 #p2box:hover {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
@@ -499,7 +499,7 @@ li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 40px 80px;
 }
@@ -580,6 +580,7 @@ li a:hover::after {
   gap: 1rem;
   padding: 20px;
   color: white;
+  cursor: pointer;
 }
 #ad3-2 {
   background-image: url(Image/b4.webp);
@@ -646,7 +647,7 @@ li a:hover::after {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   font-weight: 500;
-  padding: 17.5px 30px;
+  padding: 20.05px 30px;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -661,6 +662,9 @@ footer {
 }
 ul li {
   list-style: none;
+}
+footer a:hover {
+  color: #088178;
 }
 #row1 h2 {
   margin-top: 30px;
@@ -704,6 +708,36 @@ ul li {
   border: 1px solid #088178;
   border-radius: 4px;
 }
+#appslink {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+.apple , .playstore{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+  border: 1.5px solid #000000;
+  padding: 3px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  gap: 2px;
+}
+.apple:hover, .playstore:hover {
+  border: 1.5px solid #088178;
+  scale: 1.02;
+}
+.apple div {
+  font-size: 0.7rem;
+  padding: 2px 0px;
+}
+.apple strong {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 #copyright p {
   text-align: center;
   color: #222;
@@ -963,7 +997,7 @@ ul li {
     position: fixed;
     top: 0;
     right: -250px;
-    width: 40%;
+    width: 50%;
   }
   #navlogo {
     height: 44px;
@@ -1039,5 +1073,11 @@ ul li {
   #ad2 h1 {
     font-size: 2rem;
   }
+      .toggle-btn {
+        position: fixed;
+        right: 33px;
+        top: 11px;
+            font-size: 30px
+    }
 }
 

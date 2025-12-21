@@ -113,7 +113,7 @@
 
 @media screen and (max-width: 480px) {
 #headercontent {
-    height: 20vh;
+    height: 17vh;
     margin-bottom: 40px;
 }
 #rightbox {
@@ -123,4 +123,7 @@
     #rightbox h1 {
     font-size: 2.8rem;
     }
+    #headercontent h1 {
+    font-size: 3rem;
+}
 }
