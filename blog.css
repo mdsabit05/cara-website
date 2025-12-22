@@ -2,7 +2,7 @@
 #headercontent {
   height: 40vh;
   width: 100%;
-  background-image: url(Image/b19.webp);
+  background-image: url(../Image/b19.webp);
   background-size: cover;
   color: white;
   display: flex;
@@ -23,7 +23,6 @@
 /* ...blog... */
 #blog {
   margin-top: 120px;
- 
 }
 #blogcontent {
   display: flex;
@@ -77,6 +76,13 @@
   position: absolute;
   top: -45px;
   left: 0;
+}
+a {
+   transition: all 0.3s ease;
+}
+a:hover {
+   color: #088178;
+   transform: scale(1.05);  
 }
 
 
